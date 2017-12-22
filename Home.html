@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+		<link rel="stylesheet" type="text/css" href="Style.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	</head>
+	
+	<body>
+	
+			<div id="myTopnav" class="topnav">
+						<a href="Home.html" class="active">Home</a>
+						<a href="Productie.html">Productie</a>
+						<a href="Verschillen.html">Verschillen</a>
+						<a href="Ontwikkeling.html">Ontwikkeling</a>
+						<a href="Mening.html">Mening</a>
+						<a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+					</div>
+			</div>
+			
+			<script>
+				function myFunction() {
+					var x = document.getElementById("myTopnav");
+				if (x.className === "topnav") {
+					x.className += " responsive";
+				} else {
+					x.className = "topnav";
+					}			
+				}
+			</script>
+		<div class="container">
+		<!--hier teksten in zetten-->
+			<h1 class="center">Welkom op de site voor elektrisch rijden!</h1>
+			
+			<p class="text">Op deze site kunt u allerlei informatie vinden over elektrisch rijden.
+			Zo staat er informatie op over de productie van elektrische auto's, de verschillen tussen elektrische auto's, de ontwikkeling van elektrische auto's en mijn persoonlijke mening over de auto's.
+			Hopelijk kunt u hier alle informatie vinden die u zoekt!
+			</p>
+			
+			<img class="HomePicture" src='img/elektrisch-rijden.jpg'/>
+		</div>
+		
+	</body>
+
+</html>

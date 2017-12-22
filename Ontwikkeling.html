@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+		<link rel="stylesheet" type="text/css" href="Style.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	</head>
+	
+	<body>
+	
+			<div id="myTopnav" class="topnav">
+						<a href="Home.html">Home</a>
+						<a href="Productie.html">Productie</a>
+						<a href="Verschillen.html">Verschillen</a>
+						<a href="Ontwikkeling.html" class="active">Ontwikkeling</a>
+						<a href="Mening.html">Mening</a>
+						<a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+					</div>
+			</div>
+			
+			<script>
+				function myFunction() {
+					var x = document.getElementById("myTopnav");
+				if (x.className === "topnav") {
+					x.className += " responsive";
+				} else {
+					x.className = "topnav";
+					}			
+				}
+			</script>
+		<div class="container">
+		<!--hier teksten in zetten-->
+			<h1 class="center">De ontwikkeling van elektrische auto's</h1>
+			
+			<p class="text">De ontwikkeling van elektrische auto&apos;s is enorm snel gegaan in de afgelopen jaren.
+			Het begon als iets voor de &apos;lucky few&apos; en dat is het ook nog steeds vanwege de hoge aanschafprijzen van elektrische auto&apos;s zoals een Tesla.
+			Maar het succes van Tesla heeft er wel voor gezorgd dat andere autofabrikanten ook elektrische auto&apos;s op de markt hebben gebracht die een stuk betaalbaarder zijn voor de gewone consument.
+			Niet alleen het aanbod van elektrische auto&apos;s groeit, de plaatsen waar mensen deze auto&apos;s kunnen opladen groeit ook met oplaadpunten die overal worden aangelegd special voor deze auto&apos;s.
+			Ook is de actieradius van elektrische auto&apos;s gestegen.
+			Met de duurdere elektrische auto&apos;s die op dit moment te koop zijn kan je gemiddeld 400 tot 500 kilometer rijden op een lading terwijl je met de goedkopere elektrische auto&apos;s zo&apos;n 200 kilometer kan rijden op een lading.
+			</p>
+			
+			<iframe class="VideoOntwikkeling" width="560" height="315" src="https://www.youtube.com/embed/q-6iRxhLSnc?rel=0&amp;showinfo=0" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+			<img class="PictureOntwikkeling" src='img/ev-sales1.jpg'/>
+		</div>
+		
+	</body>
+
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+		<link rel="stylesheet" type="text/css" href="Style.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	</head>
+	
+	<body>
+	
+			<div id="myTopnav" class="topnav">
+						<a href="Home.html">Home</a>
+						<a href="Productie.html">Productie</a>
+						<a href="Verschillen.html">Verschillen</a>
+						<a href="Ontwikkeling.html">Ontwikkeling</a>
+						<a href="Mening.html" class="active">Mening</a>
+						<a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+					</div>
+			</div>
+			
+			<script>
+				function myFunction() {
+					var x = document.getElementById("myTopnav");
+				if (x.className === "topnav") {
+					x.className += " responsive";
+				} else {
+					x.className = "topnav";
+					}			
+				}
+			</script>
+		<div class="container">
+		<!--hier teksten in zetten-->
+			<h1 class="center">Mijn mening over elektrische auto's</h1>
+			
+			<p class="TextLeft">
+				<img class="MeningRight" src='img/subie-hatch.png'/>
+			Zelf ben ik nog niet een fan van elektrische auto&apos;s.
+			De techniek die ervoor wordt ontwikkeld is geweldig en het is ook heel erg knap dat de ontwikkeling zo snel gaat van deze auto&apos;s, maar ik heb toch liever een normale auto met een benzinemotor.
+			Als autofanaat wil ik graag een auto met een eigen karakter, een karakter dat ontstaat door het geluid van de auto, hoe die rijdt of hoe de auto voelt terwijl je in de auto rijdt en dat gevoel heb ik niet met elektrische auto&apos;s.
+			Persoonlijk vind ik elektrische auto&apos;s niet veel meer dan een computer op wielen.
+			Er is geen manier om een band te krijgen met een elektrische auto zoals je dat kan met een benzineauto, alles wordt voor je gedaan en afgezien van een radio zit er ook geen geluid in.
+			</p>
+			
+			<p class="TextLeft">Wat er op dit moment gebeurt in de wereld van elektrische auto&apos;s en hoe snel de ontwikkelingen gaan is heel erg indrukwekkend, maar ik heb toch liever een benzineauto.
+			</p>
+			
+			<img class="MeningBottom" src='img/tesla-models.png'/>
+		</div>
+		
+	</body>
+
+</html>
